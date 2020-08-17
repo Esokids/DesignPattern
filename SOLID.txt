@@ -1,0 +1,26 @@
+https://medium.com/@phayao/s-o-l-i-d-5-%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%82%E0%B8%AD%E0%B8%87-object-oriented-design-3c8a52821783
+https://www.facebook.com/programmerthai/photos/a.1406027003020480/2188622521427587/?type=3
+https://www.ikq.me/2016/02/solid-principles-part-3-lsp/
+=============================================================================
+S. (Single-Responsibility principle) 
+    - A class should have one, and only one, reason to change.
+    - คลาสหนึ่ง ๆ จะมีเพียง 1 ความรับผิดชอบ เช่น AreaCalculator() รับผิดชอบคำนวณพื้นที่, 
+				      SumCalculatorOutputter() รับผิดชอบแสดงผลพื้นที่
+=============================================================================
+O. (Open/Closed principle)
+    - Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
+    - คลาสควรจะง่ายต่อการขยายความสามารถโดยจะต้องไม่แก้ไขคลาสนั้น ๆ
+    - ทำการ Inheritance จาก Interface class หลัก
+=============================================================================
+L. (Liskov Substitution principle)
+    - Derived classes must be subsitutable for their base classes.
+    - คลาสย่อยจะต้องสามารถแทนที่คลาสหลักของตัวเอง
+    - ถ้าคลาสลูกต้องรีเทิร์นเหมือนคลาสแม่ (ทำงานได้)
+=============================================================================
+I. (Interface Segregation principle)
+    - Clients should not be forced to implement interfaces they do not use.
+=============================================================================
+D. (Dependency Invension principle)
+    - Depend on abstractions, not on concretions.
+    - ใช้ abstract class หรือ interface class แทน 
+=============================================================================
